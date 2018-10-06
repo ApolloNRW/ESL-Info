@@ -222,4 +222,4 @@ async def tutorial_uptime():
 client.loop.create_task(tutorial_uptime())
 
 
-client.run(config.token)
+client.run(open("token","r").read())
